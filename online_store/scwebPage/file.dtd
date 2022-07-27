@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!ELEMENT person(name,address)>
+<!ELEMENT address (city)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT city(#PCDATA)>
+<!ATTLIST person name CDATA #REQUIRED>
+
+
+<!ELEMENT person(name,address) >
+<!ELEMENT address(city)>
+<!ELEMENT city(#PCDATA)>
+<!ATTLIST PERSON NAMEE CDATA #REQUIRED
+<xsd:schema>
+xmlns=""
+target
+xmls:n
+<xs>
+<elem person (name,address)>
+<element person (name,address)>
+<ATTl person name CDATA #required>
+<xs:element  name="person">
+
+
+
+<xs :ELEMENT name="person">
+<xs :complexType>
+<xs :sequence>
+<xs    :ELEMENT name="address">
+<xs :simpleType name="city">
+<xs:simpleType name= type="xsd:decimal">
+<xsd:simpleType>
+
+<xs:simpleType name="city">
+<xs:simpleType name="city">          

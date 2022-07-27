@@ -1,0 +1,34 @@
+$background-color:blue;
+*{
+    
+    padding:0px;
+    margin: 0;
+}
+@function f($background-color){
+@if(lightness($background-color)>30){
+    @return darken($background-color,50%);}
+    @else {
+        @return lighten($background-color,100%);
+        
+    }
+
+}
+@mixin f2() {
+    background-color: red($color: #000000);
+    color:f($background-color);
+    
+}
+div{
+  @include f2($background-color);
+    height: 100vh;
+    
+   
+}
+
+$steps:(1,2,3,4);
+@each $step  in $steps {
+    .my-#{$step}{
+
+    }
+    
+}

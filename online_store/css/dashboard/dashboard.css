@@ -1,0 +1,81 @@
+html,body{
+  height: 100% !important;
+  margin: 0;
+}
+
+/*header*/
+
+.header{
+  position: fixed;
+  left: 0;
+  height: 100%;
+  width: 15%;
+}
+.header button{
+  width: 15%;
+}
+.sidebar{
+  padding: 10px;
+  background-color: #143250;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  border-radius: 1px;
+  box-shadow: 4px 0px 15px black;
+}
+.sidebar .title{
+  padding: 5px;
+}
+.sidebar .list-group{
+  width: 100%;
+}
+.list-group a{
+  color: white;
+  text-decoration: none;
+}
+.list-group a:hover{
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+/*form*/
+
+.form{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 84.5%;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  position: absolute;
+  right: 1.5px;
+}
+
+.card{
+  margin-top: 30px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  .header{
+    z-index: 999;
+  }
+  .header,.sidebar{
+    width: 100%;
+  }
+  .header button{
+    width: 25%;
+  }
+  .sidebar{
+    display: none;
+    overflow: auto;
+  }
+  .sidebarToggle{
+    display: inline-block !important;
+  }
+  .form{
+    width: 100%;
+    margin-top: 50px;
+  }
+}

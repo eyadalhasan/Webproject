@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE person SYSTEM "file.dtd">
+<?xml-stylesheet href="style.css" ?>
+<person >
+xmlns="eeeee";
+xmlns:f="eeeee";
+
+<name>eyada </name>
+<address>
+
+<city>
+NABLUS
+</city> 
+
+</address>
+
+</person> 

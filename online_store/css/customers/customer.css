@@ -1,0 +1,17 @@
+body{
+    /*background-image: url("../../images/background2.jpg");*/
+    background-image: url("../../images/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    background-color: rgba(0,0,0,0.3777);
+    box-shadow: 1px 1px 15px 6px #03e9f4;
+    color: white;
+    padding: 5px;
+}
+.nav-link-header{
+    color: black !important;
+}
