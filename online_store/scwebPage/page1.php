@@ -2,10 +2,10 @@
 session_start();
 if(isset($_POST['name'] )and isset($_POST['password'])){
 $_SESSION['name']=$_POST['name'];
+$_SESSION['password']=$_POST['password'];
 header("location:page2.php");
+
 }
-
-
 
 ?>
 

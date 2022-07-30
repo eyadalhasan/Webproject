@@ -4,6 +4,7 @@ session_start();
 if(isset($_SESSION['name'])){
 echo "Welcome ".$_SESSION['name'];
 echo "<a href=\"logout.php\">logout</a>";}
+ 
 
 ?>
 <html lang="en">

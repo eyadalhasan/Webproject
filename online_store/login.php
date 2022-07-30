@@ -27,15 +27,15 @@
                 <div class="tab-content">
                     <!-- Form Login -->
                     <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
-                        <h4 class="text-center mt-4 mb-4">LOGIN</h4>
+                        <h4 class="mt-4 mb-4">Login</h4>
                         <form method="POST">
                             <div class="form-row">
                                 <div class="form-group col-md-12">
-                                    <label for="phone_number">Your Number Phone</label>
+                                    <label for="phone_number">Number Phone</label>
                                     <input type="text" id="phone_number" class="form-control" placeholder="Enter your number phone" required>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="password">Your Password</label>
+                                    <label for="password">Password</label>
                                     <input type="password" id="password" class="form-control" placeholder="Enter your password" required>
                                     <img src="images/2767194.png" alt="" width="20" header="10" style="display:inline-block ;position: relative;top:-31px;float:right;right:20px;cursor: pointer;" onclick="tooglePass(this,1)" id="image" >
 
@@ -49,23 +49,23 @@
                                 </div>
                                 <div class="w-100" id="result_login"></div>
                             </div>
-                            <div class="mt-2 mb-3"> <button class="btn btn-primary full-width" type="submit">Login</button> </div>
+                            <div class="mt-2 mb-3" > <button class="btn btn-primary full-width ml-14" type="submit" style="text-align: center;">Continue</button> </div>
                         </form>
                     </div>
                     <!-- Form Sign up -->
                     <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
-                        <h4 class="text-center mt-4 mb-4">REGISTER</h4>
+                        <h4 class=" mt-4 mb-4">Register</h4>
                         <form action="" method="post">
                             <div class="form-group">
-                                <label for="c_name">Your Name</label>
+                                <label for="c_name">Name</label>
                                 <input type="text" class="form-control" id="c_name" placeholder="Enter your name" required>
                             </div>
                             <div class="form-group">
-                                <label for="c_phone_number">Your Number Phone</label>
+                                <label for="c_phone_number">Number Phone</label>
                                 <input type="text" class="form-control" id="c_phone_number" placeholder="Enter your phone number" required>
                             </div>
                             <div class="form-group">
-                                <label for="c_password">Your Password</label>
+                                <label for="c_password">Password</label>
                                 <input type="password" class="form-control" id="c_password" placeholder="Enter your password" required>
                             </div>
                             <div class="form-group">
@@ -73,14 +73,14 @@
                                 <input type="password" class="form-control" id="c_confirm_password" placeholder="Enter your confirm password" required>
                             </div>
                             <div class="form-group">
-                               <label for="c_city">Your City</label>
+                               <label for="c_city">City</label>
                                 <select id="c_city" class="form-control" required>
                                     <option value="0" selected="">Choose City</option>
                                     <?php include('php/functions/cities/showAsOptions.php'); ?>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="c_address">Your Address</label>
+                                <label for="c_address">Address</label>
                                 <textarea class="form-control" id="c_address" placeholder="Your address"></textarea>
                             </div>
 
@@ -89,7 +89,7 @@
                             <hr class="mt-3 mb-4">
 
                             <div class="col-12">
-                                <button class="btn btn-primary mt-3 mt-sm-0" type="submit">Register</button>
+                                <button class="btn btn-primary mt-3 mt-sm-0" type="submit">Continue</button>
                             </div>
                         </form>
                     </div>

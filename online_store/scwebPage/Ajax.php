@@ -28,13 +28,12 @@ function loadDoc(zip) {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("city").value =this.responseText;
-      
-      
-      
+       
     }
   };
   xhttp.open("GET", "open.php?zip="+zip, true);
   xhttp.send();
+
 }
 </script>
 
